@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="weather">
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1456159110345</CreatedAt>
+    <CreatedBy>himanshu.shrivastava@accenture.com</CreatedBy>
+    <DisplayName>weather</DisplayName>
+    <LastModifiedAt>1456163934754</LastModifiedAt>
+    <LastModifiedBy>himanshu.shrivastava@accenture.com</LastModifiedBy>
+    <Policies>
+        <Policy>Spike-Arrest-1</Policy>
+        <Policy>XML-to-JSON-1</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+    <validate>false</validate>
+</APIProxy>
