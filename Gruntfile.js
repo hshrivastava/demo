@@ -152,7 +152,7 @@ module.exports = function(grunt) {
 	             command: 'mvn install -P <%= grunt.option("env") %>',
 	        },*/
           apigee_npm_node_modules : {
-               command: "npm install --prefix './node'",
+               command: "npm install --prefix node",
           },
 	    },
 	    notify: {
